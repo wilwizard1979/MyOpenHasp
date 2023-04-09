@@ -1,7 +1,7 @@
 # MyOpenHasp
 A repository for my display based on OpenHasp
 
-Below the Screenshots for my Display. The code can be found in the pages.jsonl in my repository.
+Below the Screenshots for my Display. The code can be found in the "pages.jsonl" in my repository.
 
 ![image](https://user-images.githubusercontent.com/108979356/230768631-47d468bc-b3d7-4592-a262-284ee2cfcce9.png)
 ![image](https://user-images.githubusercontent.com/108979356/230768647-9c0b6102-2dbd-4abe-970e-183a2e5bd3f1.png)
