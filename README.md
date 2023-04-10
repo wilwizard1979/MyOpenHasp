@@ -3,8 +3,9 @@ A repository for my display based on OpenHasp
 
 Below the Screenshots for my Display. The code can be found in the "pages.jsonl" in my repository.
 
-![image](https://user-images.githubusercontent.com/108979356/230768631-47d468bc-b3d7-4592-a262-284ee2cfcce9.png)
-![image](https://user-images.githubusercontent.com/108979356/230768647-9c0b6102-2dbd-4abe-970e-183a2e5bd3f1.png)
-![image](https://user-images.githubusercontent.com/108979356/230768662-96bedae4-b5f5-48ad-bc34-764111c8d741.png)
-![image](https://user-images.githubusercontent.com/108979356/230768686-1922f570-d533-476e-afc0-26f75519fe9d.png)
-![image](https://user-images.githubusercontent.com/108979356/230768706-f1aa4a57-393e-4421-9f44-13c90aa2215a.png)
+![image](https://user-images.githubusercontent.com/108979356/230804630-13d604dd-42e4-4647-883b-2a5aa78dba12.png)
+![image](https://user-images.githubusercontent.com/108979356/230804725-98013641-f75d-4056-a55b-c71b7945eb4f.png)
+![image](https://user-images.githubusercontent.com/108979356/230804643-4368505b-171e-416d-9a42-06dea466254b.png)
+![image](https://user-images.githubusercontent.com/108979356/230804653-a18d3a5b-d65d-4d63-82ca-66aa5b7d2f1f.png)
+![image](https://user-images.githubusercontent.com/108979356/230804691-e63cb052-6a60-447e-a1b5-4da653ec37ff.png)
+
