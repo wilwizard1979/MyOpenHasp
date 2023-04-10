@@ -7,18 +7,20 @@
 {"page":0,"id":6,"comment":"Humidity","obj":"btn","x":154,"y":1,"w":30,"h":40,"text_font":"2","text":"\uE58E","text_color":"gray","bg_opa":0,"border_width":0}
 {"page":0,"id":7,"comment":"Humidity","obj":"btn","x":180,"y":1,"w":40,"h":40,"text_font":"2","text":"00%","text_color":"gray","bg_opa":0,"border_width":0}
 
-{"page":0,"id":8,"comment":"Home","obj":"btn","action":"p1","x":280,"y":0,"w":50,"h":50,"bg_color":"#000000","text":"\uE2DC","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":28}
-{"page":0,"id":9,"comment":"Heating","obj":"btn","action":"p2","x":330,"y":0,"w":50,"h":50,"bg_color":"#000000","text":"\uE438","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":28}
-{"page":0,"id":10,"comment":"Rollers","obj":"btn","action":"p3","x":380,"y":0,"w":50,"h":50,"bg_color":"#000000","text":"\uE2E3","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":28}
-{"page":0,"id":11,"comment":"Music","obj":"btn","action":"p5","x":430,"y":0,"w":50,"h":50,"bg_color":"#000000","text":"\uE75A","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":28}
-
+{"page":0,"id":8,"comment":"Home","obj":"btn","action":"p1","x":280,"y":8,"w":40,"h":30,"bg_color":"#000000","text":"\uE2DC","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":26}
+{"page":0,"id":9,"comment":"Heating","obj":"btn","action":"p2","x":320,"y":8,"w":40,"h":30,"bg_color":"#000000","text":"\uE438","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":26}
+{"page":0,"id":10,"comment":"Rollers","obj":"btn","action":"p3","x":360,"y":8,"w":40,"h":30,"bg_color":"#000000","text":"\uF11C","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":26}
+{"page":0,"id":11,"comment":"Lamps","obj":"btn","action":"p4","x":400,"y":8,"w":40,"h":30,"bg_color":"#000000","text":"\uE335","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":26}
+{"page":0,"id":12,"comment":"Music","obj":"btn","action":"p5","x":440,"y":8,"w":40,"h":30,"bg_color":"#000000","text":"\uE75A","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":26}
 
 {"page":1,"comment":" ---- Home - Weather ----"}
 {"page":1,"id":1,"obj":"obj","action":"none","x":0,"y":0,"w":480,"h":320,"bg_color":"#000000","radius":0,"border_side":0}
 
-{"page":1,"id": 100,"x":62,"y":45,"w": 240,"obj": "label","text": "%hostname%"}
+{"page":1,"id":100,"obj":"line","points":[[286,39],[315,39]],"line_color":"#FFFFFF","auto_size":0}
 
-{"page":1,"id":103,"obj":"label","x":65,"y":70,"h":60,"w":125,"text":"08:23","text_color":"#FFFFFF","align":0,"text_font":48,"bg_color":"#2C3E50"}
+{"page":1,"id": 5,"x":62,"y":45,"w": 240,"obj": "label","text": "%hostname%"}
+
+{"page":1,"id":4,"obj":"label","x":65,"y":70,"h":60,"w":125,"text":"08:23","text_color":"#FFFFFF","align":0,"text_font":48,"bg_color":"#2C3E50"}
 
 {"page":1,"id":2,"obj":"obj","x":245,"y":60,"w":230,"h":120,"click":0,"bg_color":"#000000","border_side":0}
 {"page":1,"id":14,"obj":"img","src":"L:/openhasp_dummy_img.png","parentid":2,"auto_size":1,"w":128,"offset_x":-6,"offset_y":-10}
@@ -76,9 +78,9 @@
 {"page":2,"comment":"---- Page 2 - Heating Control ----"}
 {"page":2,"id":2,"obj":"obj","action":"none","x":0,"y":0,"w":480,"h":320,"bg_color":"#000000","radius":0,"border_side":0}
 
-{"page":2,"id":4,"comment":"Heating","obj":"btn","action":"p2","x":330,"y":0,"w":50,"h":50,"bg_color":"#404040","text":"\uE438","text_color":"#FFFFFF","radius":0,"border_side":0,"text_font":28}
-
 {"page":2,"id":20,"obj":"obj","x":5,"y":80,"w":240,"h":260,"bg_color":"#000000","border_color":"#000000","click":0}
+{"page":2,"id":100,"obj":"line","points":[[326,39],[355,39]],"line_color":"#FFFFFF","auto_size":0}
+
 {"page":2,"id":21,"obj":"arc","x":5,"y":20,"w":230,"h":230,"min":160,"max":300,"val":250,"border_side":0,"type":0,"rotation":0,"start_angle":135,"end_angle":45,"adjustable":"true","line_width":20,"line_width1":20,"line_color1":"#34bdeb","bg_opa":0,"pad_top2":5,"pad_bottom2":5,"pad_left2":5,"pad_right2":5,"pad_top":5,"pad_bottom":5,"pad_left":5,"pad_right":5,"parentid":20}
 {"page":2,"id":22,"obj":"gauge","x":28,"y":28,"w":175,"h":175,"parentid":21,"min":160,"max":300,"val":224,"format":1,"critical_value":301,"label_count":14,"line_count":14,"border_width":0,"pad_top":2,"pad_bottom":2,"pad_left":2,"pad_right":2,"value_ofs_y":100,"value_font":10,"text_font":15,"bg_opa":0,"line_width2":5,"line_rounded2":1,"line_color":"#348feb","line_color1":"#348feb","scale_grad_color":"#eb4934","scale_grad_color1":"#eb4934","scale_end_color1":"#eb4934"}
 {"page":2,"id":23,"obj":"obj","x":85,"y":85,"w":60,"h":60,"parentid":21,"click":0,"radius":50,"border_width":2,"border_opa":200}
@@ -101,44 +103,35 @@
 {"page":3,"comment":"---- Page 3 - Roller and Lamp Control ----"}
 {"page":3,"id":1,"obj":"obj","action":"none","x":0,"y":0,"w":480,"h":320,"bg_color":"#000000","radius":0,"border_side":0}
 
-{"page":3,"id":2,"obj":"btn","x":10,"y":50,"w":220,"h":25,"text":"LAMPS","text_font":16,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":5,"border_side":0,"click":0}
+{"page":3,"id":4,"obj":"btn","x":10,"y":50,"w":220,"h":25,"text":"ROLLADEN","text_font":16,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":5,"border_side":0,"click":0}
+{"page":3,"id":100,"obj":"line","points":[[366,39],[395,39]],"line_color":"#FFFFFF","auto_size":0}
 
-{"page":3,"id":46,"obj":"dropdown","text_font":20,"x":10,"y":85,"w":100,"h":35,"options":"Mode\nMode2\nMode3\nMode4"}
+{"page":3,"id":36,"obj":"dropdown","text_font":20,"x":10,"y":85,"w":100,"h":35,"options":"All Open\nPrivacy\nHalf Open\nLow Light"}
 
-{"page":3,"id":40,"obj":"obj","action":"none","x":10,"y":130,"w":230,"h":220,"bg_color":"#000000","radius":0,"border_side":0}
-{"page":3,"id":41,"obj":"btn","x":10,"y":5,"w":60,"h":60,"toggle":true,"text":"\uE335","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":40}
-{"page":3,"id":42,"obj":"btn","x":80,"y":5,"w":60,"h":60,"toggle":true,"text":"\uE335","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":40}
-{"page":3,"id":43,"obj":"btn","x":150,"y":5,"w":60,"h":60,"toggle":true,"text":"\uE335","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":40}
-{"page":3,"id":44,"obj":"slider","x":20,"y":90,"w":200,"h":20,"min":0,"max":100,"parentid":40}
-{"page":3,"id":45,"obj":"cpicker","x":20,"y":140,"w":200,"h":20,"color":"#00FF00","scale_width":30,"pad_inner":5,"parentid":40}
-
-{"page":3,"id":4,"obj":"btn","x":250,"y":50,"w":220,"h":25,"text":"ROLLADEN","text_font":16,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":5,"border_side":0,"click":0}
-
-{"page":3,"id":36,"obj":"dropdown","text_font":20,"x":250,"y":85,"w":100,"h":35,"options":"All Open\nPrivacy\nHalf Open\nLow Light"}
-
-{"page":3,"id":30,"obj":"obj","action":"none","x":250,"y":130,"w":230,"h":220,"bg_color":"#000000","radius":0,"border_side":0}
+{"page":3,"id":30,"obj":"obj","action":"none","x":10,"y":130,"w":230,"h":220,"bg_color":"#000000","radius":0,"border_side":0}
 {"page":3,"id":31,"obj":"btn","x":10,"y":5,"w":60,"h":60,"toggle":true,"text":"\uE045","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":30}
 {"page":3,"id":32,"obj":"btn","x":80,"y":5,"w":60,"h":60,"toggle":true,"text":"\uF11C","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":30}
 {"page":3,"id":33,"obj":"btn","x":150,"y":5,"w":60,"h":60,"toggle":true,"text":"\uE05D","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":30}
 {"page":3,"id":34,"obj":"slider","x":20,"y":90,"w":200,"h":20,"min":0,"max":100,"parentid":30}
 
-
-
 {"page":4,"comment":"---- Page 4 - Lights ----"}
-{"page":4,"id":4,"obj":"obj","action":"none","x":0,"y":0,"w":480,"h":320,"bg_color":"#000000","radius":0,"border_side":0}
+{"page":4,"id":1,"obj":"obj","action":"none","x":0,"y":0,"w":480,"h":320,"bg_color":"#000000","radius":0,"border_side":0}
+{"page":4,"id":100,"obj":"line","points":[[406,39],[435,39]],"line_color":"#FFFFFF","auto_size":0}
 
-{"page":4,"id":40,"obj":"obj","action":"none","x":10,"y":70,"w":230,"h":220,"bg_color":"#000000","radius":0,"border_side":0}
-{"page":4,"id":41,"obj":"btn","x":10,"y":10,"w":60,"h":60,"toggle":true,"text":"\uE335","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":40}
-{"page":4,"id":42,"obj":"btn","x":80,"y":10,"w":60,"h":60,"toggle":true,"text":"\uE335","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":40}
-{"page":4,"id":43,"obj":"btn","x":150,"y":10,"w":60,"h":60,"toggle":true,"text":"\uE335","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":40}
-{"page":4,"id":44,"obj":"slider","x":20,"y":110,"w":200,"h":20,"min":0,"max":100,"parentid":40}
-{"page":4,"id":45,"obj":"cpicker","x":20,"y":180,"w":200,"h":20,"color":"#00FF00","scale_width":30,"pad_inner":5,"parentid":40}
+{"page":4,"id":2,"obj":"btn","x":10,"y":50,"w":220,"h":25,"text":"LAMPS","text_font":16,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":5,"border_side":0,"click":0}
 
-{"page":4,"id":46,"obj":"dropdown","text_font":20,"x":250,"y":70,"w":100,"h":35,"options":"Mode\nMode2\nMode3\nMode4"}
-{"page":4,"id":47,"obj":"dropdown","text_font":20,"x":370,"y":70,"w":100,"h":35,"options":"Mode\nMode2\nMode3\nMode4"}
+{"page":4,"id":46,"obj":"dropdown","text_font":20,"x":10,"y":85,"w":100,"h":35,"options":"Mode\nMode2\nMode3\nMode4"}
+
+{"page":4,"id":40,"obj":"obj","action":"none","x":10,"y":130,"w":230,"h":220,"bg_color":"#000000","radius":0,"border_side":0}
+{"page":4,"id":41,"obj":"btn","x":10,"y":5,"w":60,"h":60,"toggle":true,"text":"\uE335","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":40}
+{"page":4,"id":42,"obj":"btn","x":80,"y":5,"w":60,"h":60,"toggle":true,"text":"\uE335","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":40}
+{"page":4,"id":43,"obj":"btn","x":150,"y":5,"w":60,"h":60,"toggle":true,"text":"\uE335","bg_color":"#404040","radius":10,"border_side":0,"text_font":32,"align":1,"parentid":40}
+{"page":4,"id":44,"obj":"slider","x":20,"y":90,"w":200,"h":20,"min":0,"max":100,"parentid":40}
+{"page":4,"id":45,"obj":"cpicker","x":20,"y":140,"w":200,"h":20,"color":"#00FF00","scale_width":30,"pad_inner":5,"parentid":40}
 
 {"page":5,"comment":" ---- Page 5 - Music ----"}
 {"page":5,"id":5,"obj":"obj","action":"none","x":0,"y":0,"w":480,"h":320,"bg_color":"#000000","radius":0,"border_side":0}
+{"page":5,"id":100,"obj":"line","points":[[446,39],[475,39]],"line_color":"#FFFFFF","auto_size":0}
 {"page":5,"id":51,"obj":"obj","x":5,"y":100,"w":200,"h":150,"click":0}
 {"page":5,"id":52,"obj":"label","x":7,"y":110,"w":196,"h":30,"text":"-","mode":"scroll","align":1}
 {"page":5,"id":53,"obj":"label","x":7,"y":130,"w":196,"h":30,"text":"-","mode":"scroll","align":1}
@@ -157,7 +150,3 @@
 {"page":5,"id":67,"comment":"Mute","obj":"btn","x":160,"y":90,"w":45,"h":37,"toggle":false,"text":"\uE57E","text_font":32,"parentid":60}
 
 {"page":5,"id":68,"obj":"slider","x":450,"y":70,"w":22,"h":230,"min":0,"max":100}
-
-
-
-
